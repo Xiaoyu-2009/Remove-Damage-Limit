@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.xiaoyu.remove_damage_limit.init.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "remove_damage_limit.refmap.json",
+  "mixins": [
+    "miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBossMixin",
+    "miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedMiniBossMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
